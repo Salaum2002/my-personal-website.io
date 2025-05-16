@@ -7,7 +7,7 @@ body {
 }
 
 header {
-  background-color: #4a90e2;
+  background-color: #000000;
   color: white;
   text-align: center;
   padding: 60px 20px;
@@ -64,20 +64,6 @@ header p {
   animation: fadeIn 2s ease-in;
 }
 
-.bar {
-  height: 8px;
-  border-radius: 4px;
-  background: #ddd;
-}
-
-.bar-fill {
-  height: 100%;
-  border-radius: 4px;
-  background: #4a90e2;
-  width: 0;
-  animation: fillBar 2s ease forwards;
-}
-
 @keyframes fadeIn {
   from {
     opacity: 0;
@@ -100,16 +86,12 @@ header p {
   }
 }
 
-@keyframes fillBar {
-  to {
-    width: var(--level);
-  }
-}
+
 
 footer {
   text-align: center;
   padding: 20px;
-  background: #4a90e2;
+  background: #000000;
   color: white;
 }
 
